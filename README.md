@@ -20,7 +20,22 @@ To write a program to perform selection sort and insertion sort using python pro
 ## Program:
 i)	#Selection Sort
 ```
-
+''' 
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by:MANOJ KUMAR S
+RegisterNumber: 212223240082
+'''
+def selection_sort(array,size):
+    for ind in range(size):
+        min_index=ind
+        for j in range(ind+1,size):
+            if array[j]<array[min_index]:
+                min_index=j
+        (array[ind],array[min_index])=(array[min_index],array[ind])    
+arr=eval(input())
+size=len(arr)
+selection_sort(arr,size)
+print(arr)
 
 
 
@@ -28,16 +43,30 @@ i)	#Selection Sort
 ```
 ii)	#Insertion Sort
 ```
-
-
-
-
-
+''' 
+Program to sort the elements in the list using the Insertion Sort algorithm.
+Developed by:MANOJ KUMAR S
+RegisterNumber:212223240082
+'''
+def selection_sort(array,size):
+    for ind in range(size):
+        min_index=ind
+        for j in range(ind+1,size):
+            if array[j]<array[min_index]:
+                min_index=j
+        (array[ind],array[min_index])=(array[min_index],array[ind])    
+arr=eval(input())
+size=len(arr)
+selection_sort(arr,size)
+print(arr)
 
 ```
 
 ## Output:
-
+### selection
+![Output](select.png)
+### insertion
+![Output](insert.png)
 
 ## Result:
 Thus the program is written to perform selection sort and insertion sort using python programming.
